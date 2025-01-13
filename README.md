@@ -18,10 +18,8 @@ This tutorial outlines the post-install configuration of the open-source help de
 <h2>Post-Install Configuration Objectives</h2>
 
 - Adding and configuring new Role, Department etc.
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Create SLA's for tickets.
+- Enable End Users for Ticket Creation.
 
 <h2>Configuration Steps</h2>
 
@@ -40,18 +38,24 @@ Within the osTicket system, logging using admin credentials. Now you may navigat
 </p>
 <br />
 
+
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  
+![SLA config   creation](https://github.com/user-attachments/assets/6e25a936-4d5e-4d4b-88c5-a8c8a0a643cf)
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Here we create some "Service-Level Agreements." This will be used for when tickets are created we have a procedure in place for resolving the tickets including which will have priority. 
 </p>
 <br />
 
+
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  
+![End User tickets](https://github.com/user-attachments/assets/48ebb55e-fff3-4c08-9cb9-38c81a6fff12)
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Next we must ensure that the back-end users are able to create tickets without being forced to register (unless otherwise desired for them to register). We do this by making sure the "Registration required" box is unchecked.
 </p>
 <br />
